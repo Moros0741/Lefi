@@ -219,7 +219,7 @@ class Client:
         Parameters
         ----------
         event_name: Optional[:class:`str`]
-            The name of the vent to register the callback to.
+            The name of the event to register the callback to.
 
         Examples
         --------
@@ -363,7 +363,7 @@ class Client:
             The name of the event to wait for
 
         check: Callable[..., :class:`bool`]
-            The check that needs to be passed. Defaults to always return True
+            The check that needs to be passed.  Default return is always True
             if not passed to the method.
 
         timeout: :class:`float`
